@@ -50,7 +50,7 @@
     line-height: 120px;
     color: rgba(255,255,255,0.8);
 }
-.cb-slideshow li:nth-child(1) span { background-image: url(../images/1.jpg) }
+.cb-slideshow li:nth-child(1) span { background-image: url(../images/main_visual/1.jpg) }
 
 .cb-slideshow li:nth-child(2) span {
     background-image: url(../images/main_visual/2.jpg);
