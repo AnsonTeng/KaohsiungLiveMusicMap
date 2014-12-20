@@ -152,7 +152,7 @@ a{
 .codrops-demos a,
 .codrops-demos a.current-demo,
 .codrops-demos a.current-demo:hover{
-	font-family: Arial, sans-serif;
+	font-family: 'LiHei Pro', '微軟正黑體', Arial, sans-serif;
     display: inline-block;
 	border: 1px solid #6d0019;
 	padding: 4px 10px 3px;
