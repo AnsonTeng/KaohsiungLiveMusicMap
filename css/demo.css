@@ -144,9 +144,11 @@ a{
 	display: inline;
 }
 
+
+/* ---主選單--- */
 .codrops-demos{
 	float:right;
-	width:550px;
+	width:600px;
 	z-index: 10000;
 	padding:0px 0px 0px 5px;
 }
@@ -175,6 +177,9 @@ a{
 	color: #A5727D;
 	background: #6d0019;
 }
+
+
+
 /* Media Queries */
 @media screen and (max-width: 767px) {
 	.container > header{
