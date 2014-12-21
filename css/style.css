@@ -209,7 +209,8 @@ a{
 
 
 .content_b_left h3{
-	font-size: 17.5pt;
+	font-size: 18pt;
+	max-width: 264px;
 	font-weight: bold;
 	margin: 0px;
 	color: #FFFFFF;
