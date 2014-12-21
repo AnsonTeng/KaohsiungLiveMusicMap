@@ -209,9 +209,10 @@ a{
 
 
 .content_b_left h3{
-	font-size: 16pt;
+	font-size: 17pt;
 	max-width: 264px;
 	font-weight: bold;
+	text-align: justify;
 	margin: 0px;
 	color: #FFFFFF;
 }
