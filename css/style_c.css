@@ -10,8 +10,6 @@
 }
 
 
-
-
 .content_c {
 	position:absolute;
 /*
@@ -25,13 +23,13 @@
 }
 
 
+
+/*---選單區---*/
 .content_c_listgroup {
 	position:absolute;
 	left: 50px;
 	top: 316px;
 }
-
-
 .content_c_listbox {
 	width: 222px;
 	left: 50px;
@@ -39,7 +37,6 @@
 	right: 0px;
 	float: left;
 }
-
 .content_c_list {
 	width: 222px;
 	left: 0px;
@@ -48,7 +45,6 @@
 	float: left;
 	margin-bottom: 8px;
 }
-
 .content_c_list_num {
 	width: 20px;
 	height: 20px;
@@ -62,7 +58,6 @@
 	background-repeat: no-repeat;
 	float: left;
 }
-
 .content_c_list_name{
 	height: 20px;
 	float: left;
@@ -73,8 +68,6 @@
 	font-weight: normal;
 	padding-left: 8px;
 }
-
-
 .content_c_list_name:hover{
 	height: 20px;
 	float: left;
@@ -84,4 +77,123 @@
 	line-height: 20px;
 	font-weight: normal;
 	padding-left: 8px;
+}
+
+
+
+/*---店家介紹區---*/
+.content_c_storegroup{
+	position:absolute;
+	left: 70px;
+	top: 690px;
+}
+/*---店家(一個群組單位)---*/
+.content_c_store{
+	position:static;
+	width: 894px;
+	height: 690px;
+}
+
+/*---店家介紹區-店家編號---*/
+.content_c_store_num {
+	width: 50px;
+	height: 556px;
+	line-height: 54px;
+	float: left;
+	font-size: 30pt;
+	color: #C3D4E2;
+	text-indent: -0.05em;
+	letter-spacing: -0.1em;
+	text-align: center;
+	vertical-align: text-top;
+	background-image: url(../images/map-number-line.png);
+	background-repeat: no-repeat;
+}
+
+/*---店家介紹區-店家簡介+地圖---*/
+.content_c_store_inforgroup{
+	width: 304px;
+	height: 556px;
+	float: left;
+}
+.content_c_store_slogan{
+	width: 304px;
+	line-height: 31px;
+	padding-left: 6px;
+	font-size: 11pt;
+	color: #700019;
+}
+.content_c_store_icon{
+	width: 22px;
+	height: 23px;
+	margin-left: 6px;
+	margin-right: 14px; 
+}	
+.content_c_store_name{
+	width: 262px;
+	line-height: 23px;
+	font-size: 14pt;
+	color: #333333;
+}
+.content_c_store_infor{
+	width: 274px;
+	height: 190px;
+	font-size: 9pt;
+	color: #444444;
+	line-height: 2em;
+	padding-top: 30px;
+	padding-right: 30px;
+
+}
+.content_c_store_map{
+	width:304px;
+	height:282px;
+}
+
+
+/*---店家介紹區-圖片+影片---*/
+.content_c_store_imagegroup {
+	width:518;
+	float: right;
+}
+.content_c_store_slider {
+	width:518px;
+	height:345px;
+	background-color: #000;
+}
+.banner {
+	position: relative; overflow: auto;
+}
+.banner li {
+	list-style: none;
+}
+.banner ul li {
+	float: left;
+}
+
+
+.content_c_store_video_a {
+	width:518px;
+	height:188px;
+	margin-top: 23px;
+	background-image: url(../images/map-video_a.png);
+	background-repeat: no-repeat;
+}
+
+.content_c_store_video_b {
+	width:518px;
+	height:188px;
+	margin-top: 23px;
+	background-image: url(../images/map-video_b.png);
+	background-repeat: no-repeat;
+}
+
+/*---店家介紹區-底部連結---*/
+.content_c_store_bottom {
+	width: 894px;
+	height: 70px;
+	padding-top: 14px;
+	font-size: 9pt;
+	float: left;
+	text-align: right;
 }
