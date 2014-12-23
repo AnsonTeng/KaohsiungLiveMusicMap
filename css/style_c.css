@@ -14,9 +14,12 @@
 
 .content_c {
 	position:absolute;
-/*	width: 1024px;
+/*
+	display: inline-block;
+	width: 1024px;
 	background-image: url(../images/map-top.jpg);
-	background-repeat: no-repeat;*/
+	background-repeat: no-repeat;
+*/
 	left: 10%;
 	top: 0px;
 }
@@ -49,21 +52,34 @@
 .content_c_list_num {
 	width: 20px;
 	height: 20px;
-	font-size: 12pt;
+	font-size: 11pt;
 	color: #FFF;
 	line-height: 20px;
 	text-align: center;
-	letter-spacing: -0.2em;
+	letter-spacing: -0.16em;
+	text-indent: -0.3em;
 	background-image: url(../images/map-point.jpg);
 	background-repeat: no-repeat;
 	float: left;
 }
 
-.content_c_list_name {
+.content_c_list_name{
 	height: 20px;
 	float: left;
 	font-size: 10pt;
 	color: #4D4D4D;
+	text-align: left;
+	line-height: 20px;
+	font-weight: normal;
+	padding-left: 8px;
+}
+
+
+.content_c_list_name:hover{
+	height: 20px;
+	float: left;
+	font-size: 10pt;
+	color: #FFF;
 	text-align: left;
 	line-height: 20px;
 	font-weight: normal;
