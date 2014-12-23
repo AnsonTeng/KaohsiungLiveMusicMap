@@ -1,0 +1,71 @@
+/*--- 內頁C 內容 ---*/
+.content_c_background{
+	background-color: #FFF;
+	background-image: url(../images/map-bg.jpg);
+	background-repeat: repeat-x;
+	top: 0px;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;;
+}
+
+
+
+
+.content_c {
+	position:absolute;
+/*	width: 1024px;
+	background-image: url(../images/map-top.jpg);
+	background-repeat: no-repeat;*/
+	left: 10%;
+	top: 0px;
+}
+
+
+.content_c_listgroup {
+	position:absolute;
+	left: 50px;
+	top: 316px;
+}
+
+
+.content_c_listbox {
+	width: 222px;
+	left: 50px;
+	top: 316px;
+	right: 0px;
+	float: left;
+}
+
+.content_c_list {
+	width: 222px;
+	left: 0px;
+	top: 0px;
+	right: 0px;
+	float: left;
+	margin-bottom: 8px;
+}
+
+.content_c_list_num {
+	width: 20px;
+	height: 20px;
+	font-size: 12pt;
+	color: #FFF;
+	line-height: 20px;
+	text-align: center;
+	letter-spacing: -0.2em;
+	background-image: url(../images/map-point.jpg);
+	background-repeat: no-repeat;
+	float: left;
+}
+
+.content_c_list_name {
+	height: 20px;
+	float: left;
+	font-size: 10pt;
+	color: #4D4D4D;
+	text-align: left;
+	line-height: 20px;
+	font-weight: normal;
+	padding-left: 8px;
+}
