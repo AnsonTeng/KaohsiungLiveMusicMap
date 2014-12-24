@@ -12,7 +12,7 @@
 .content_d {
 	position:absolute;
 	width: 1020px;
-	left: 10%;
+	left: 13%;
 	top: 0px;
 }
 
@@ -28,7 +28,7 @@
 	clear: left;
 	clear: right;
 	clear: none;
-	margin: 146px 122px 36px 360px
+	margin: 146px 142px 36px 340px
 }
 .banner {
 	position: relative; overflow: auto;
@@ -44,70 +44,98 @@
 
 .content_d_listgroup_a {
 	position:absolute;
+	width: 340px;
 	top: 360px;
-	left: 20px;
-	right: 20px;
+/*	left: 20px;
+	right: 20px;*/
 	/*float: left;*/
+/*	margin-top: 360px;*/
 }
 
 .content_d_listgroup_b {
 	position:absolute;
+	width: 340px;
 	top: 540px;
+	left: 340px;
+	/*right: 20px;*/
+	/*float: left;*/
+	/*margin-top: 540px;
+	margin-left: 340px;*/
+}
+
+
+.content_d_listgroup_c {
+	position:absolute;
+	width: 340px;
+	top: 540px;
+	left: 680px;
+	/*right: 20px;*/
+	/*float: left;*/
+	/*margin-top: 540px;
+	margin-left: 340px;*/
+}
+
+
+.content_d_list {
+	min-width: 340px;
+	min-height: 180px;
+	/*width: 340px;
+	height: 180px;*/
 	left: 20px;
 	right: 20px;
-	/*float: left;*/
-}
-
-
-.content_d_listbox {
-	width: 222px;
-	left: 50px;
-	top: 316px;
-	right: 0px;
 	float: left;
-}
-.content_d_list {
-	width: 222px;
-	left: 0px;
-	top: 0px;
-	right: 0px;
-	float: left;
-	margin-bottom: 8px;
+	clear: left;
 }
 .content_d_list_num {
-	width: 20px;
-	height: 20px;
-	font-size: 11pt;
-	color: #FFF;
-	line-height: 20px;
-	text-align: center;
-	letter-spacing: -0.16em;
-	text-indent: -0.3em;
-	background-image: url(../images/map-point.jpg);
-	background-repeat: no-repeat;
+	width: 24px;
+	height: 24px;
+	font-size: 22pt;
+	color: #444;
+	line-height: 24px;
+	text-align: right;
+	letter-spacing: -0.12em;
 	float: left;
 }
 .content_d_list_name{
-	height: 20px;
 	float: left;
-	font-size: 10pt;
-	color: #4D4D4D;
-	text-align: left;
-	line-height: 20px;
-	font-weight: normal;
-	padding-left: 8px;
+	margin-left: 20px;
+	background-image: url(../images/busker-link-line.png);
+	background-repeat: repeat-x;
+	vertical-align: text-top;
+	vertical-align: middle;
 }
-.content_d_list_name:hover{
-	height: 20px;
-	float: left;
-	font-size: 10pt;
+.content_d_list_name a{
+	font-size: 12pt;
 	color: #FFF;
 	text-align: left;
-	line-height: 20px;
-	font-weight: normal;
-	padding-left: 8px;
+	line-height: 24px;
 }
-
+.content_d_list_name a:hover{
+	font-size: 12pt;
+	color: #444;
+	text-align: left;
+	line-height: 24px;
+}
+.content_d_list_infor_a{
+	height: 150px;
+	float: left;
+	clear: left;
+	font-size: 9pt;
+	color: #444;
+	text-align: right;
+	line-height: 1.8em;
+	margin-top: 8px;
+}
+.content_d_list_infor_b{
+	height: 150px;
+	float: left;
+	font-size: 9pt;
+	color: #444;
+	text-align: left;
+	line-height: 1.8em;
+	margin-left: 15px;
+	margin-top: 8px;
+}
 
 
 
