@@ -12,34 +12,21 @@
         <meta name="description" content="Fullscreen Background Image Slideshow with CSS3 - A Css-only fullscreen background image slideshow" />
         <meta name="keywords" content="css3, css-only, fullscreen, background, slideshow, images, content" />
         <meta name="author" content="Codrops" />
-        <link rel="shortcut icon" href="../favicon.ico"> 
+
+        <link rel="shortcut icon" href="favicon.ico"> 
         <link rel="stylesheet" type="text/css" href="css/style.css" />
-        <link rel="stylesheet" type="text/css" href="css/style1.css" />
-	<script type="text/javascript" src="js/modernizr.custom.86080.js"></script>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <style type="text/css">
-    body {
-	background-color: #C1D4E1;
-	background-image: url(images/buskerbg.jpg);
-	background-repeat: repeat-x;
-}
-    </style>
+        <link rel="stylesheet" type="text/css" href="css/style_d.css" />
+
+	   <script type="text/javascript" src="js/modernizr.custom.86080.js"></script>
+
+        <!--Slider-->
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+        <script src="js/unslider/unslider.min.js"></script>
     </head>
 
-<body>
-        <!--Background-->
-        <ul class="cb-slideshow">
-            <li><span></span></li>
-            <li><span></span></li>
-            <li><span></span></li>
-            <li><span></span></li>
-            <li><span></span></li>
-            <li><span></span></li>
-        </ul>
-
+    <body class="content_d_background">
         <!--Menu-->
-        <div class="container">
-
+        <div class="container" id="top">
             <header>
                 <p class="codrops-demos">
                     <a href="index.html">首頁</a>
@@ -53,13 +40,60 @@
         </div>
         
         <!--Logo-->
-        <div class="logo">
+        <div class="logo_fixed">
              <a href="http://www.khcc.gov.tw/home01.aspx" target="_blank"><img src="images/logo.png"></a>
         </div>
 
+        <!--Content-->
+        <div class="content_d">
 
-        <div class="wrapper_c">
-            <p><img src="images/busker-01.jpg" width="1024" height="2759" align="middle"></p>
-        </div>  
+            <!--第1排-->
+            <div class="content_d_listgroup_a">
+            
+第1排
+
+            </div>
+
+            <!--Slider-->
+            <div class="content_d_slider">
+                <div class="banner">
+                    <ul>
+                        <li><img src="images/busker/1.jpg" width="538" height="358" ></li>
+                        <li><img src="images/busker/2.jpg" width="538" height="358" ></li>
+                        <li><img src="images/busker/3.jpg" width="538" height="358" ></li>
+                        <li><img src="images/busker/4.jpg" width="538" height="358" ></li>
+                        <li><img src="images/busker/5.jpg" width="538" height="358" ></li>
+                        <li><img src="images/busker/6.jpg" width="538" height="358" ></li>
+                    </ul>
+                </div>
+            </div>
+
+            <!--第2排-->
+            <div class="content_d_listgroup_b">
+                
+第2排
+            </div>
+
+            <!--第3排-->
+            <div class="content_d_listgroup_b">
+                
+第3排
+
+
+            </div>
+        </div>
+
+
+        <script>
+            $(function() {
+                $('.banner').unslider({
+                    speed: 800,               //  轉場速度
+                    delay: 2200,              //  停留時間
+                    keys: false,              //  啟用鍵盤控制
+                    dots: true,               //  顯示"點"
+                    fluid: false              //  自適應
+                });
+            }); 
+        </script> 
     </body>
 </html>
