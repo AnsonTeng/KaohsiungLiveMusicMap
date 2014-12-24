@@ -91,7 +91,8 @@
 .content_c_store{
 	position:static;
 	width: 894px;
-	height: 690px;
+	height: 670px;
+	padding-top: 20px;
 }
 
 /*---店家介紹區-店家編號---*/
@@ -102,8 +103,8 @@
 	float: left;
 	font-size: 30pt;
 	color: #C3D4E2;
-	text-indent: -0.05em;
-	letter-spacing: -0.1em;
+	text-indent: -0.25em;
+	letter-spacing: -0.15em;
 	text-align: center;
 	vertical-align: text-top;
 	background-image: url(../images/map-number-line.png);
@@ -214,7 +215,7 @@
 /*---店家介紹區-底部連結---*/
 .content_c_store_bottom {
 	width: 894px;
-	height: 70px;
+	height: 50px;
 	padding-top: 14px;
 	font-size: 9pt;
 	float: left;
