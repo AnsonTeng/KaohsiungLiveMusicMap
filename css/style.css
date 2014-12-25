@@ -154,7 +154,7 @@ a{
 	/*z-index: 10000;*/
 
 	top: 90%;
-	right: 132px;
+	right: 110px;
 }
 
 .logo_fixed{
@@ -162,10 +162,10 @@ a{
 	height:17px;
 	float:right;
 	position:absolute;
-	/*z-index: 10000;*/
+	z-index: 3;
 
-	top: 490px;
-	right: 132px;
+	top: 486px;
+	right: 110px;
 }
 
 
