@@ -12,12 +12,6 @@
 
 .content_c {
 	position:absolute;
-/*
-	display: inline-block;
-	width: 1024px;
-	background-image: url(../images/map-top.jpg);
-	background-repeat: no-repeat;
-*/
 	left: 10%;
 	top: 0px;
 }
