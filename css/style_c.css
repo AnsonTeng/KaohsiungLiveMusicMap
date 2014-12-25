@@ -119,10 +119,11 @@
 
 .content_c_store_slogan{
 	width: 304px;
-	line-height: 31px;
+	line-height: 1.2em;
 	padding-left: 6px;
 	font-size: 11pt;
 	color: #700019;
+	margin-bottom: 6px;
 }
 .content_c_store_icon{
 	width: 22px;
@@ -150,7 +151,7 @@
 	line-height: 2em;
 	padding-top: 30px;
 	padding-right: 30px;
-
+	letter-spacing: -0.02em;
 }
 .content_c_store_map{
 	width:304px;
