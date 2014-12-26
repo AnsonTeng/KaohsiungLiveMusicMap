@@ -175,7 +175,11 @@
 	background-color: #000;
 }
 .banner {
-	position: relative; overflow: auto;
+	width: 100%;
+	position: relative; 
+	overflow: auto;
+	padding: 0px;
+	margin: 0px;
 }
 .banner li {
 	list-style: none;
