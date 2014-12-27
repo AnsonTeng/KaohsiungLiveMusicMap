@@ -23,22 +23,10 @@
 	width:538px;
 	height:358px;
 	background-color: #000;
-	float: right;
 	float: left;
-	clear: left;
-	clear: right;
-	clear: none;
 	margin: 146px 142px 36px 340px
 }
-.banner {
-	position: relative; overflow: auto;
-}
-.banner li {
-	list-style: none;
-}
-.banner ul li {
-	float: left;
-}
+
 
 
 

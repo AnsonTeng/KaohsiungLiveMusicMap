@@ -308,3 +308,20 @@ a{
 	background-image : url(../images/content_b_pattern.png);
     background-repeat : repeat;
 }
+
+
+<!-- Slider -->
+.banner {
+	width: 100%;
+	position: relative; 
+	overflow: auto;
+	padding: 0px;
+	margin: 0px;
+}
+.banner li {
+	list-style: none;
+
+}
+.banner ul li {
+	float: left;
+}
