@@ -1,9 +1,4 @@
-<!DOCTYPE html>
-<!--[if lt IE 7 ]> <html class="ie ie6 no-js" lang="en"> <![endif]-->
-<!--[if IE 7 ]>    <html class="ie ie7 no-js" lang="en"> <![endif]-->
-<!--[if IE 8 ]>    <html class="ie ie8 no-js" lang="en"> <![endif]-->
-<!--[if IE 9 ]>    <html class="ie ie9 no-js" lang="en"> <![endif]-->
-<!--[if gt IE 9]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<html>
     <head>
         <meta charset="UTF-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
@@ -16,12 +11,16 @@
         <link rel="shortcut icon" href="favicon.ico"> 
         <link rel="stylesheet" type="text/css" href="css/style.css" />
         <link rel="stylesheet" type="text/css" href="css/style_d.css" />
+        <link rel="stylesheet" type="text/css" href="css/responsiveslides.css"  />
 
-	   <script type="text/javascript" src="js/modernizr.custom.86080.js"></script>
 
-        <!--Slider-->
+        <script type="text/javascript" src="js/modernizr.custom.86080.js"></script>
+
+        <!--jQuery-->
         <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+        <!--Slider-->
         <script src="js/unslider/unslider.min.js"></script>
+        <script src="js/responsiveslides/responsiveslides.min.js"></script>
     </head>
 
     <body class="content_d_background">
@@ -158,8 +157,8 @@
 
             <!--Slider-->
             <div class="content_d_slider">
-                <div class="banner">
-                    <ul>
+                <!-- <div class="banner"> -->
+                    <ul class="rslides">
                         <li><img src="images/busker/1.jpg" width="538" height="358" ></li>
                         <li><img src="images/busker/2.jpg" width="538" height="358" ></li>
                         <li><img src="images/busker/3.jpg" width="538" height="358" ></li>
@@ -167,7 +166,7 @@
                         <li><img src="images/busker/5.jpg" width="538" height="358" ></li>
                         <li><img src="images/busker/6.jpg" width="538" height="358" ></li>
                     </ul>
-                </div>
+                <!-- </div> -->
             </div>
 
             <!--第2排-->
@@ -362,7 +361,7 @@
         </div>
 
 
-        <script>
+        <!--script>
             $(function() {
                 $('.banner').unslider({
                     speed: 1000,               //  轉場速度
@@ -372,6 +371,30 @@
                     fluid: false              //  自適應
                 });
             }); 
-        </script> 
+        </script--> 
+
+
+        <script>
+            $(function() {
+                $(".rslides").responsiveSlides({
+                    auto: true,             // Boolean: Animate automatically, true or false
+                    speed: 500,            // Integer: Speed of the transition, in milliseconds
+                    timeout: 4000,          // Integer: Time between slide transitions, in milliseconds
+                    pager: false,           // Boolean: Show pager, true or false
+                    nav: false,             // Boolean: Show navigation, true or false
+                    random: false,          // Boolean: Randomize the order of the slides, true or false
+                    pause: false,           // Boolean: Pause on hover, true or false
+                    pauseControls: true,    // Boolean: Pause when hovering controls, true or false
+                    prevText: "Previous",   // String: Text for the "previous" button
+                    nextText: "Next",       // String: Text for the "next" button
+                    maxwidth: "",           // Integer: Max-width of the slideshow, in pixels
+                    navContainer: "",       // Selector: Where controls should be appended to, default is after the 'ul'
+                    manualControls: "",     // Selector: Declare custom pager navigation
+                    namespace: "rslides",   // String: Change the default namespace used
+                    before: function(){},   // Function: Before callback
+                    after: function(){}     // Function: After callback
+                });
+            });
+        </script>
     </body>
 </html>
