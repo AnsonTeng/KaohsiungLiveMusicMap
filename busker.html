@@ -11,7 +11,7 @@
         <link rel="shortcut icon" href="favicon.ico"> 
         <link rel="stylesheet" type="text/css" href="css/style.css" />
         <link rel="stylesheet" type="text/css" href="css/style_d.css" />
-        <link rel="stylesheet" type="text/css" href="css/responsiveslides.css" />
+        <link rel="stylesheet" type="text/css" href="css/responsiveslides.css"  />
 
 
         <script type="text/javascript" src="js/modernizr.custom.86080.js"></script>
@@ -19,7 +19,7 @@
         <!--jQuery-->
         <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
         <!--Slider-->
-        <!--script src="js/unslider/unslider.min.js"></script-->
+        <script src="js/unslider/unslider.min.js"></script>
         <script src="js/responsiveslides/responsiveslides.min.js"></script>
     </head>
 
@@ -157,6 +157,7 @@
 
             <!--Slider-->
             <div class="content_d_slider">
+<<<<<<< HEAD
                 <ul class="rslides">
                     <li><img src="images/busker/1.jpg" width="538" height="358" ></li>
                     <li><img src="images/busker/2.jpg" width="538" height="358" ></li>
@@ -165,6 +166,18 @@
                     <li><img src="images/busker/5.jpg" width="538" height="358" ></li>
                     <li><img src="images/busker/6.jpg" width="538" height="358" ></li>
                 </ul>
+=======
+                <!-- <div class="banner"> -->
+                    <ul class="rslides">
+                        <li><img src="images/busker/1.jpg" width="538" height="358" ></li>
+                        <li><img src="images/busker/2.jpg" width="538" height="358" ></li>
+                        <li><img src="images/busker/3.jpg" width="538" height="358" ></li>
+                        <li><img src="images/busker/4.jpg" width="538" height="358" ></li>
+                        <li><img src="images/busker/5.jpg" width="538" height="358" ></li>
+                        <li><img src="images/busker/6.jpg" width="538" height="358" ></li>
+                    </ul>
+                <!-- </div> -->
+>>>>>>> parent of 1661fee... Map Slider Change
             </div>
 
 
@@ -377,16 +390,22 @@
             $(function() {
                 $(".rslides").responsiveSlides({
                     auto: true,             // Boolean: Animate automatically, true or false
+<<<<<<< HEAD
                     speed: 3500,            // Integer: Speed of the transition, in milliseconds
                     timeout: 6000,          // Integer: Time between slide transitions, in milliseconds
                     pager: true,           // Boolean: Show pager, true or false
+=======
+                    speed: 500,            // Integer: Speed of the transition, in milliseconds
+                    timeout: 4000,          // Integer: Time between slide transitions, in milliseconds
+                    pager: false,           // Boolean: Show pager, true or false
+>>>>>>> parent of 1661fee... Map Slider Change
                     nav: false,             // Boolean: Show navigation, true or false
                     random: false,          // Boolean: Randomize the order of the slides, true or false
                     pause: false,           // Boolean: Pause on hover, true or false
                     pauseControls: true,    // Boolean: Pause when hovering controls, true or false
                     prevText: "Previous",   // String: Text for the "previous" button
                     nextText: "Next",       // String: Text for the "next" button
-                    maxwidth: "538",        // Integer: Max-width of the slideshow, in pixels
+                    maxwidth: "",           // Integer: Max-width of the slideshow, in pixels
                     navContainer: "",       // Selector: Where controls should be appended to, default is after the 'ul'
                     manualControls: "",     // Selector: Declare custom pager navigation
                     namespace: "rslides",   // String: Change the default namespace used
